@@ -1,0 +1,11 @@
+<IfModule mod_rewrite.c>
+    Options -MultiViews
+    RewriteEngine On
+
+    # Jangan proses jika file atau foldernya beneran ada (seperti gambar/css)
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_FILENAME} !-f
+
+    # Selain itu, oper semuanya ke index.php
+    RewriteRule ^(.+)$ index.php?url=$1 [QSA,L]
+</IfModule>
