@@ -79,85 +79,6 @@ Pool Snack adalah solusi digital untuk modernisasi operasional F&B di arena bill
 Aplikasi ini dibangun menggunakan pola arsitektur MVC (Model–View–Controller) Monolitik yang terstruktur:
 
 ```mermaid
-# 🎱 POOL SNACK - Sistem Pemesanan Snack Arena Billiard
-
-<p align="center">
-  <strong>Final Project Mata Kuliah Rekayasa Perangkat Lunak</strong><br>
-  <em>Kelompok 6 - Sistem Pemesanan Digital untuk Arena Billiard</em>
-</p>
-
-<p align="center">
-  <a href="http://poolsnackbilliard.wuaze.com" target="_blank">
-    <img src="https://img.shields.io/badge/LIVE_DEMO-poolsnackbilliard.wuaze.com-2ecc71?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Live Demo"/>
-  </a>
-  <img src="https://img.shields.io/badge/PHP-8.1-777BB4?style=for-the-badge&logo=php&logoColor=white" alt="PHP" />
-  <img src="https://img.shields.io/badge/MySQL-8.0-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL" />
-  <img src="https://img.shields.io/badge/Bootstrap-5.3-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white" alt="Bootstrap" />
-  <img src="https://img.shields.io/badge/Architecture-MVC-orange?style=for-the-badge" alt="MVC" />
-</p>
-
----
-
-## 📋 DAFTAR ISI
-- [👥 Identitas Kelompok](#-identitas-kelompok)
-- [📘 Dokumen Final](#-1-dokumen-final-pdf)
-- [📱 Deskripsi & Masalah](#-deskripsi--masalah)
-- [🏗 Arsitektur Sistem](#-arsitektur-sistem)
-- [🔄 Metodologi & Sprint Log](#-metodologi--sprint-log)
-- [🛠 Teknologi Pengembangan](#-teknologi-pengembangan)
-- [⚙ Instalasi & Konfigurasi](#-instalasi--konfigurasi)
-- [🚀 Cara Menjalankan](#-cara-menjalankan)
-- [🔐 Akun Demo](#-akun-demo)
-- [🌐 Link Deployment & Video](#-link-deployment--video-demo)
-- [📸 Screenshot Sistem](#-screenshot-sistem)
-- [📝 Keterangan Tugas](#-keterangan-tugas)
-
----
-
-## 👥 IDENTITAS KELOMPOK
-KELOMPOK 6 - MATA KULIAH REKAYASA PERANGKAT LUNAK
-
-| No | Nama Lengkap | NIM | Peran & Tanggung Jawab |
-|---:|--------------|-----:|------------------------|
-| 1 | JIHAN NABILLAH | 701230022 | Fullstack Developer & Project Lead<br>• Perancangan Arsitektur MVC & Database<br>• Backend Development (Core System, Auth, Transaction)<br>• Deployment & Server Configuration (InfinityFree)<br>• System Integration Testing |
-| 2 | DWI ASTINA | 701230030 | System Architect & QA<br>• Penyusunan High Level Design (HLD)<br>• Quality Assurance & Bug Tracking<br>• Dokumentasi Teknis & User Manual<br>• Validasi Standar RPL |
-| 3 | SINTA ULAN DARI | 701230178 | UI/UX Designer & Analyst<br>• Analisis Kebutuhan Fungsional (SRS)<br>• Desain Mockup & Wireframe (Figma)<br>• Frontend Implementation (Bootstrap Styling)<br>• Penyusunan Use Case & Activity Diagram |
-
----
-
-# 📘 1. Dokumen Final (PDF)
-Semua dokumen final project juga diunggah dalam folder /dokumen.
-
-### 📄 Backlog (Agile)
-[ProductBacklog_Kelompok6.pdf](https://github.com/jihannabillah/poolsnack/blob/main/dokumen/ProductBacklog_Kelompok6.pdf)
-
-### 📄 Laporan Deployment
-[Kelompok_6_Laporan Pelaksanaan Sprint (Sprint Execution Log)_5C Sistem Informasi.pdf](https://github.com/jihannabillah/poolsnack/blob/main/dokumen/Kelompok_6_Laporan%20Pelaksanaan%20Sprint%20(Sprint%20Execution%20Log)_5C%20Sistem%20Informasi.pdf)
-
-
----
-
-## 📱 DESKRIPSI & MASALAH
-
-Pool Snack adalah solusi digital untuk modernisasi operasional F&B di arena billiard. Sistem ini memangkas waktu pemesanan manual dengan memungkinkan pelanggan memesan langsung dari meja permainan mereka melalui QR Code.
-
-### 🔴 Permasalahan (Pain Points)
-1.  Inefisiensi Waktu: Pemain harus meninggalkan meja permainan hanya untuk memesan minum/snack ke kasir.
-2.  Antrian Kasir: Penumpukan antrian saat jam sibuk (malam minggu/turnamen).
-3.  Human Error: Kesalahan pencatatan pesanan manual oleh pelayan.
-4.  Laporan Manual: Rekapitulasi pendapatan harian yang memakan waktu dan rawan selisih.
-
-### ✅ Solusi Sistem
-* Scan-to-Order: Pemesanan mandiri tanpa interupsi permainan.
-* Real-time Dashboard: Pesanan langsung masuk ke layar dapur/kasir detik itu juga.
-* Auto-Calculation: Total harga, pajak, dan kembalian dihitung otomatis sistem.
-* Digital Reporting: Laporan harian & mingguan tergenerasi otomatis (PDF/Excel).
-
----
-
-## 🏗 ARSITEKTUR SISTEM
-Aplikasi ini dibangun menggunakan pola arsitektur MVC (Model–View–Controller) Monolitik yang terstruktur:
-
 graph TD
     User["Browser / Client"] -->|HTTP Request| Router["Routing System"]
 
@@ -177,8 +98,8 @@ graph TD
 
     View -->|Rendered HTML| Controller
     Controller -->|HTTP Response| User
-    
------
+    ...
+```
 
 ## 🔄 METODOLOGI & SPRINT LOG
 
@@ -450,7 +371,7 @@ Project ini disusun sebagai syarat kelulusan mata kuliah Rekayasa Perangkat Luna
   * Fakultas: Sains dan Teknologi
   * Prodi: Sistem Informasi
   * Dosen Pengampu: Dila Nurlaila, M.Kom.
-  * Semester: Ganjil 2024/2025
+  * Semester: Ganjil 2025/2026
 
 ### Capaian Pembelajaran:
 
@@ -463,5 +384,5 @@ Project ini disusun sebagai syarat kelulusan mata kuliah Rekayasa Perangkat Luna
 
 ## 📄 LISENSI
 
-© 2024 Pool Snack System - Kelompok 6.
+© 2025 Pool Snack System - Kelompok 6.
 Dibuat dengan ❤ dan ☕ untuk kemajuan teknologi billiard Indonesia.
