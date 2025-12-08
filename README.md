@@ -257,7 +257,7 @@ Project ini disusun sebagai syarat kelulusan mata kuliah Rekayasa Perangkat Luna
   * Fakultas: Sains dan Teknologi
   * Prodi: Sistem Informasi
   * Dosen Pengampu: Dila Nurlaila, M.Kom.
-  * Semester: Ganjil 2024/2025
+  * Semester: Ganjil 2025/2026
 
 ### Capaian Pembelajaran:
 
@@ -270,7 +270,7 @@ Project ini disusun sebagai syarat kelulusan mata kuliah Rekayasa Perangkat Luna
 
 ## 📄 LISENSI
 
-© 2024 Pool Snack System - Kelompok 6.
+© 2025 Pool Snack System - Kelompok 6.
 Dibuat dengan ❤ dan ☕ untuk kemajuan teknologi billiard Indonesia.
 
 -----
