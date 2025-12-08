@@ -40,7 +40,7 @@ KELOMPOK 6 - MATA KULIAH REKAYASA PERANGKAT LUNAK
 |---:|--------------|-----:|------------------------|
 | 1 | JIHAN NABILLAH | 701230022 | Fullstack Developer & Project Lead<br>• Perancangan Arsitektur MVC & Database<br>• Backend Development (Core System, Auth, Transaction)<br>• Deployment & Server Configuration (InfinityFree)<br>• System Integration Testing<br>• Penyusunan Sprint Execution Log<br>• Penyusunan Master Product Backlog<br>• Penyusunan Activity Diagram  |
 | 2 | DWI ASTINA | 701230030 | System Architect & QA<br>• Penyusunan High Level Design (HLD)<br>• Validasi Standar RPL<br>• Pembuatan PPT Presentasi |
-| 3 | SINTA ULAN DARI | 701230178 | UI/UX Designer & Analyst<br>• Analisis Kebutuhan Fungsional (SRS)<br>• Desain Mockup & Wireframe (Figma)<br>• Frontend Implementation (Bootstrap Styling)<br>• Penyusunan Use Case & Activity Diagram |
+| 3 | SINTA ULAN DARI | 701230178 | UI/UX Designer & Analyst<br>• Analisis Kebutuhan Fungsional (SRS)<br>• Desain Mockup & Wireframe<br>• Penyusunan Use Case<br>• Penyusunan Trello Task Board (Pembagian Sprint & Monitoring Progres)|
 
 ---
 
